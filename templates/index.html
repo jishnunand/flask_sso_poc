@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SSO Protected Home</title>
+</head>
+<body>
+    <h1>Welcome SSO User</h1>
+    <p>You are logged in with SAML SSO.</p>
+    <pre>{{ user }}</pre>
+    <a href="{{ url_for('logout') }}">Logout</a>
+</body>
+</html>
